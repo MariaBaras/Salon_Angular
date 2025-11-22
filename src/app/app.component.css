@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  background-color: #fff0f6;
+  color: #333;
+}
+
+/* شريط التنقل */
+.navbar {
+  background-color: #e91e63;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* قسم ترحيبي */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fce4ec;
+}
+.hero-text h1 {
+  color: #e91e63;
+  font-size: 32px;
+}
+.hero-text p {
+  margin: 15px 0;
+}
+.hero-text button {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* الأقسام */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+.section h2 {
+  color: #e91e63;
+  margin-bottom: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #f8bbd0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+.card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* نموذج تسجيل الدخول */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+form input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+form button:hover {
+  background-color: #c2185b;
+}
+
+/* التذييل */
+footer {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
